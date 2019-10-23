@@ -45,6 +45,15 @@ a:hover {
     justify-content: space-between;
 }
 
+.index-navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-link {
+    margin: 5px 0;
+}
+
 .page {
   display: flex;
   flex-flow: column;
@@ -117,6 +126,11 @@ a:hover {
 .video-text {
     font-size: 15px;
     padding: 40px 0;
+}
+
+.responsive-blurb {
+    width: 75%;
+    margin: 0 auto 20px;
 }
 
 /* image formatting */
