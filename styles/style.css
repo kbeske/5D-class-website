@@ -17,7 +17,7 @@ a:hover {
 }
 
 .main-body {
-    height: 100%;
+    height: 80%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -150,6 +150,22 @@ a:hover {
     max-height: 300px;
     width: auto;
 }
+
+.menu-image {
+    height: 20%;
+    width: auto;
+    animation: glide 4s forwards;
+    animation-iteration-count:infinite;
+}
+
+@keyframes glide {
+    0% {
+      transform: translate(-50vh,0);
+    }
+    100% {
+      transform: translate(150vh,0);
+    }
+  }
 
 /***** media queries ***********************************************************/
 @media only screen and (max-width: 600px) {
