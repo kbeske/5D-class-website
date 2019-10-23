@@ -154,16 +154,16 @@ a:hover {
 .menu-image {
     height: 20%;
     width: auto;
-    animation: glide 4s forwards;
-    animation-iteration-count:infinite;
+    animation: glide 8s forwards;
+    animation-iteration-count: infinite;
 }
 
 @keyframes glide {
     0% {
-      transform: translate(-50vh,0);
+      transform: translate(-100vh,0);
     }
     100% {
-      transform: translate(150vh,0);
+      transform: translate(250vh,0);
     }
   }
 
