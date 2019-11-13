@@ -34,7 +34,7 @@ body {
     color: #BB8C50;
 }
 .haiku-1-line-1 a {
-    color: #BB8C50;
+    color: #e4ba83;
     text-decoration: none;
 }
 .haiku-1-line-1 a:hover {
@@ -51,7 +51,7 @@ body {
     color: #9CB1B4;
 }
 .haiku-1-line-2 a {
-    color: #9CB1B4;
+    color: #d3e0e2;
     text-decoration: none;
 }
 .haiku-1-line-2 a:hover {
@@ -68,11 +68,61 @@ body {
     color: #A1E0FB;
 }
 .haiku-1-line-3 a {
-    color: #A1E0FB;
+    color: #a1a7fb;
     text-decoration: none;
 }
 .haiku-1-line-3 a:hover {
     color: #D2B5E7;
+    text-decoration: none;
+}
+
+.haiku-2-line-1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+    color: #863141;
+}
+.haiku-2-line-1 a {
+    color: #C74D64;
+    text-decoration: none;
+}
+.haiku-2-line-1 a:hover {
+    color: #d85e75;
+    text-decoration: none;
+}
+
+.haiku-2-line-2 {
+    position: absolute;
+    top: 100px;
+    width: 100vw;
+    text-align: left;
+    z-index: 1;
+    color: #97BBC0;
+}
+.haiku-2-line-2 a {
+    color: #FEBF5D;
+    text-decoration: none;
+}
+.haiku-2-line-2 a:hover {
+    color: #fcc875;
+    text-decoration: none;
+}
+
+.haiku-2-line-3 {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    text-align: center;
+    z-index: 1;
+    color: #1752AE;
+}
+.haiku-2-line-3 a {
+    color: #75C3F5;
+    text-decoration: none;
+}
+.haiku-2-line-3 a:hover {
+    color: #85cbf7;
     text-decoration: none;
 }
 
