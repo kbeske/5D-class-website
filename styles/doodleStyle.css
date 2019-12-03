@@ -1,0 +1,39 @@
+html {
+    font-family: georgia;
+    background-color: #FDFAFA;
+}
+
+.doodle {
+    margin-top: 30vh;
+}
+
+.title-secondary {
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.worlds-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.worlds-image {
+    width: 12vw;
+    height: auto;
+    border-radius: 6vw;
+}
+
+audio {
+    display: none;
+}
+
+a {
+    color: #707070;
+    text-decoration: none;
+    margin: 5px 0 0 5px;
+}
+a:hover {
+    color: #f7a840;
+}

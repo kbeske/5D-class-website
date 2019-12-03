@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>5D Fundamentals</title>
+    <link href="styles/doodleStyle.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+    <a href="index.html">↤ Menu</a>
+    <div class="doodle">
+        <div class="title-secondary">
+            War of the
+        </div>
+        <div class="worlds-image-container">
+            <img src="./images/wotw/W.png" class="worlds-image" onmouseover="hover(this, 'W');" onmouseout="unhover(this, 'W');"/>
+            <img src="./images/wotw/O.png" class="worlds-image" onmouseover="hover(this, 'O');" onmouseout="unhover(this, 'O');"/>
+            <img src="./images/wotw/R.png" class="worlds-image" onmouseover="hover(this, 'R');" onmouseout="unhover(this, 'R');"/>
+            <img src="./images/wotw/L.png" class="worlds-image" onmouseover="hover(this, 'L');" onmouseout="unhover(this, 'L');"/>
+            <img src="./images/wotw/D.png" class="worlds-image" onmouseover="hover(this, 'D');" onmouseout="unhover(this, 'D');"/>
+            <img src="./images/wotw/S.png" class="worlds-image" onmouseover="hover(this, 'S');" onmouseout="unhover(this, 'S');"/>
+            <audio controls preload="auto" id="S">
+                <source src="audio/S.mp3" controls></source>
+                Your browser doesn't support audio.
+            </audio>
+        </div>
+        <div class="title-secondary">
+            1938
+        </div>
+    </div>
+
+    <script>
+        function hover(element, letter) {
+            element.setAttribute('src', `./images/wotw/${letter}_nomask.png`);
+            var audio = document.getElementById(letter);
+            if (audio) {
+                audio.play();
+            }
+        }
+
+        function unhover(element, letter) {
+            element.setAttribute('src', `./images/wotw/${letter}.png`);
+            var audio = document.getElementById(letter);
+            if (audio) {
+                audio.pause();
+            }
+        }
+    </script>
+</body>
+
+</html>
