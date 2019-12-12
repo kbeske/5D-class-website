@@ -1,6 +1,7 @@
 html {
     font-family: georgia;
     background-color: #FDFAFA;
+    height: 100%;
 }
 
 .doodle {
@@ -12,6 +13,12 @@ html {
     text-align: center;
     font-weight: bold;
     margin: 10px 0;
+}
+
+.learn-more {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .worlds-image-container {
@@ -36,4 +43,25 @@ a {
 }
 a:hover {
     color: #f7a840;
+}
+
+.page {
+    margin: 40px 50px;
+}
+
+.title {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #707070;
+}
+
+.text {
+    color: #707070;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.buffer {
+    margin-top: 40px;
 }
