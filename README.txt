@@ -2,4 +2,4 @@ This is a website I wrote for my 5D fundamentals class about the design of sciss
 
 https://kbeske.github.io/5D-class-website/
 
-The most fun portion, the assignment was ripoff of a google doodle: https://kbeske.github.io/5D-class-website/doodle.html
+The most fun assignment (and not related to scissors) was a ripoff of a google doodle: https://kbeske.github.io/5D-class-website/doodle.html
